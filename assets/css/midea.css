@@ -3,13 +3,21 @@
     .hero_banner .content h5 {
         font-size: 15px;
         line-height: 20px;
-
     }
 
     .hero_banner .content h1 {
         font-size: 38px;
         line-height: 48px;
+    }
 
+    /* testimonial_section */
+    .testimonial_section {
+        margin: 40px 0;
+    }
+
+    .testimonial_section>h2 {
+    
+        margin-bottom: 40px;
     }
 }
 
@@ -19,6 +27,7 @@
         width: 70% !important;
 
     }
+
     .hero_banner .content h1 {
         font-size: 48px;
     }
