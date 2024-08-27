@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --color-primary: #21B573;
+    --color-white: #ffff;
+    --color-black: #000;
+    --color-orange: #FD511A;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background: #F0FFF0;
+}
+
+nav ul li a {
+    color: var(--color-black) !important;
+}
+
+nav ul li .custom_active {
+    background: var(--color-primary);
+    color: var(--color-white) !important;
+}
+
+.hero_banner {
+    padding-bottom: 100px;
+    padding-top: 60px;
+}
+
+.hero_banner .content {
+    text-align: left;
+}
+
+.hero_banner .content h5 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--color-orange);
+}
+
+.hero_banner .content h1 {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 70px;
+}
+
+.hero_banner .content h1 span {
+    color: var(--color-primary);
+}
+
+.hero_banner .content p {
+    margin: 15px 0;
+}
+
+.hero_banner .content a {
+    padding: 12px 36px;
+    border-radius: 33px;
+    background: var(--color-primary);
+    color: var(--color-white);
+    text-decoration: none;
+    display: inline-block;
+}
+
+/* .info-section */
+.info-section .content {
+    height: 270px;
+    width: 270px;
+    background: #F8FFFB;
+    transition: all .5s;
+    margin: 0 auto;
+}
+
+.info-section .content:hover {
+    background: #Fff;
+    box-shadow: 0px 0px 10px 2px rgba(144, 143, 143, 0.621);
+    border-radius: 10px;
+}
+
+.info-section .content .img img {
+    height: 85px;
+}
+
+.info-section .content p {
+    color: #413960;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    margin-top: 25px;
+
+}
+
+.info-section .content>span {
+    color: #585859;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+/* course_section */
+.course_section .content {
+    padding: 25px 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 25px 2px rgba(144, 143, 143, 0.29);
+
+}
+
+.course_section h2 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: center;
+    color: #413960; 
+}
+
+.course_section .course_details h2 {
+
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #413960;
+    margin-top: 19px;
+}
+
+.course_section .course_details span {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #585859;
+
+}
+
+.course_section .course_details a {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 8px 28px 8px 28px;
+    gap: 10px;
+    border-radius: 33px;
+    background: var(--color-primary);
+    text-decoration: none;
+    color: var(--color-white);
+
+}
+
+.course_section .course_details .course_info {
+    display: flex;
+    align-items: center;
+}
+
+.course_section .course_details .course_info .seat p,
+
+.course_section .course_details .course_info .date p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #585859;
+
+
+}
+
+.course_section .course_details .course_info .date img,
+.course_section .course_details .course_info .seat img {
+    width: 24px;
+}

@@ -1,0 +1,35 @@
+/* // Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .hero_banner .content h5 {
+        font-size: 15px;
+        line-height: 20px;
+
+    }
+
+    .hero_banner .content h1 {
+        font-size: 38px;
+        line-height: 48px;
+
+    }
+}
+
+/* // Small devices (landscape phones, less than 768px) */
+@media screen and (max-width: 767.98px) {
+    nav a img {
+        width: 70% !important;
+
+    }
+    .hero_banner .content h1 {
+        font-size: 48px;
+    }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    nav ul li a {
+        margin: 0 12px;
+    }
+}
+
+/* // Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {}
