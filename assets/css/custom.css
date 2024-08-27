@@ -107,7 +107,7 @@ nav ul li .custom_active {
 
 }
 
-.course_section h2 {
+.course_section>h2 {
     font-size: 36px;
     font-weight: 700;
     line-height: 54px;
