@@ -19,9 +19,11 @@ header {
 
 nav ul li a {
     color: var(--color-black) !important;
+    transition-duration: .4s !important;
 }
 
-nav ul li .custom_active {
+nav ul li .custom_active,
+nav ul li a:hover {
     background: var(--color-primary);
     color: var(--color-white) !important;
 }
@@ -145,6 +147,17 @@ nav ul li .custom_active {
     text-decoration: none;
     color: var(--color-white);
 
+
+}
+
+a {
+    transition: all .4s;
+}
+
+.custom_btn:hover,
+.course_section .course_details a:hover {
+    box-shadow: 0 0 10px 2px rgba(142, 141, 141, 0.584);
+    background: #1bd481 !important;
 }
 
 .course_section .course_details .course_info {
