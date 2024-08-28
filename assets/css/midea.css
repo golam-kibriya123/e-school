@@ -1,5 +1,9 @@
 /* // Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
+    .hero_banner {
+        padding-bottom: 40px;
+    }
+
     .hero_banner .content h5 {
         font-size: 15px;
         line-height: 20px;
@@ -16,12 +20,11 @@
     }
 
     .testimonial_section>h2 {
-
         margin-bottom: 40px;
     }
 
     footer span {
-      
+
         margin-top: 46px;
     }
 }
@@ -31,6 +34,10 @@
     nav a img {
         width: 70% !important;
 
+    }
+
+    .hero_banner {
+        padding-bottom: 40px;
     }
 
     .hero_banner .content h1 {
