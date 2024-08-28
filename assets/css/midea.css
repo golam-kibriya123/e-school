@@ -43,6 +43,11 @@
     .hero_banner .content h1 {
         font-size: 48px;
     }
+
+    .testimonial_section .container p {
+        text-align: center;
+        font-size: 15px !important;
+    }
 }
 
 /* // Large devices (desktops, 992px and up) */
